@@ -27,5 +27,5 @@ void loop() {
   // (número do canal, número do campo, valor, chave de escrita)
   ThingSpeak.writeField(canal, 1, sensorValue, ChaveEscritaAPI);
   
-  delay(1000); // ThingSpeak aceita atualizações dos valores cada 5 segundos.
+  delay(1000); // ThingSpeak aceita atualizações dos valores cada 1 segundos.
 }
